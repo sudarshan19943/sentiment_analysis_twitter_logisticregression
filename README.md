@@ -1,5 +1,10 @@
 # Sentiment Analysis using Logistic Regression
-This project performs sentiment analysis using a machine learning approach. Live tweets can be streamed and a thorough analysis of sentiments can be made using visualization graphs. A really helpful tool for analyzing your business or product in your day-to-day life.
+This project performs sentiment analysis using a machine learning approach. Live tweets can be streamed and a thorough analysis of sentiments can be made using visualization graphs.
+
+The project builds a data pipeline to demonstrate the ETL process. The stages of the ETL process is described below:
+* Extraction - Extract live tweets using the Twitter API
+* Transform - Cleaning of tweets using regex and use an ML model to evaluate tweet sentiments
+* Load - Load the tweets and their sentiment values using elasicsearch
 
 ## General Instructions on using the application
 Clone the project onto your local system and make sure you have installed Python 3.6.5 with Apache Spark version 2.3.2.
