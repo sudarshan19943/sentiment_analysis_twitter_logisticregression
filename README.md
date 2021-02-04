@@ -28,3 +28,6 @@ Run all the scripts in the order mentioned. The final graph containing the senti
 
 ## Testing
 A thorough manual testing has been done to check the functionality of the application in case of null values or exceptions.
+
+### Results
+Based on the sentiment scores calculated for each tweet, the results can be seen in sentiment_analysis_results.csv :)
